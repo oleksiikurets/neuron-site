@@ -5,8 +5,9 @@ body {
     background: #f2f2f2;
 }
 
-.menu {
-    background-color: #333;
+nav {
+    padding: 30px 0;
+    background-color: aliceblue;
 }
 
 .menu ul {
@@ -22,20 +23,22 @@ body {
 
 .menu li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 .menu li a:hover {
-    background-color: #111;
+    background-color: #ddd;
     text-decoration: underline;
 }
 
-.header img {
-    width: 100%;
-    height: auto;
+header {
+    min-height: 1000px;
+    background-image: url("img/image_header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .content {

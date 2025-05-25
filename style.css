@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,11 +6,13 @@ body {
     background: #f2f2f2;
 }
 
+/* Крок 12 */
 nav {
     padding: 30px 0;
     background-color: aliceblue;
 }
 
+/* Крок 7 */
 .menu ul {
     list-style-type: none;
     margin: 0;
@@ -17,10 +20,12 @@ nav {
     overflow: hidden;
 }
 
+/* Крок 14 */
 .menu li {
     float: left;
 }
 
+/* Крок 18 */
 .menu li a {
     display: block;
     color: black;
@@ -29,11 +34,13 @@ nav {
     text-decoration: none;
 }
 
+/* Крок 20 */
 .menu li a:hover {
     background-color: #ddd;
     text-decoration: underline;
 }
 
+/* Крок 25 */
 header {
     min-height: 1000px;
     background-image: url("img/image_header.jpg");
@@ -41,6 +48,7 @@ header {
     background-size: cover;
 }
 
+/* Крок 29 */
 .content {
     padding: 20px;
     background: white;

@@ -38,7 +38,7 @@ header {
 }
 header h1 {
     font-size: 62px;
-    color: white;
+    color: #111;
 }
 .container2 {
     display: flex;

@@ -1,57 +1,63 @@
-
-body {
-    font-family: Arial, sans-serif;
+*{
     margin: 0;
-    padding: 0;
-    background: #f2f2f2;
+padding: 0;
+box-sizing: border-box;
 }
-
-/* Крок 12 */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.navigation {
+display: flex;
+justify-content: space-between;
+}
 nav {
-    padding: 30px 0;
-    background-color: aliceblue;
+    padding: 30px;
+    background-color: lightgreen;
 }
-
-/* Крок 7 */
-.menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-/* Крок 14 */
-.menu li {
-    float: left;
-}
-
-/* Крок 18 */
 .menu li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
+    color: rgb(37, 37, 37);
+    font-size: 16pt;
 }
-
-/* Крок 20 */
-.menu li a:hover {
-    background-color: #ddd;
-    text-decoration: underline;
+.menu ul{
+    display: flex;
 }
-
-/* Крок 25 */
+.menu li {
+     list-style: none;
+    margin-left: 15px;
+}
+.logo {
+    font-size: 20pt;
+}
+header {
+    height: 1000px;
+    background-image: url("img/image_header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header h1 {
+    font-size: 62px;
+    color: white;
+}
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 header {
     min-height: 1000px;
     background-image: url("img/image_header.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
 }
-
-/* Крок 29 */
-.content {
-    padding: 20px;
-    background: white;
-    margin: 20px;
-    border-radius: 5px;
+.menu li a:hover {
+    border-bottom: 3px solid rgb(108, 163, 92);
+    transition: ease-in .1s;
 }

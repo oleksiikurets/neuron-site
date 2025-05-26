@@ -17,12 +17,7 @@
 nav {
     padding: 30px;
     background-color: #ffe4e1;
-}
-
-.menu li a {
-    text-decoration: none;
-    color: rgb(37, 37, 37);
-    font-size: 16pt;
+    margin-bottom: 20px;
 }
 
 .menu ul {
@@ -34,26 +29,36 @@ nav {
     margin-left: 15px;
 }
 
+.menu li a {
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+    font-size: 16pt;
+}
+
+.menu li a:hover {
+    border-bottom: 3px solid rgb(108, 163, 92);
+    transition: ease-in 0.1s;
+}
+
 .logo {
     font-size: 20pt;
 }
 
 header {
     min-height: 1000px;
-    background-image: url("image_header.jpg");
+    background-image: url("img/image_header.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     text-align: center;
-    height: 100vh;
+    padding-top: 100px;
 }
 
 header h1 {
     font-size: 36px;
     color: #222;
-    transform: translateY(-50px)
 }
 
 .container2 {
@@ -61,9 +66,4 @@ header h1 {
     justify-content: center;
     align-items: center;
     width: 100%;
-}
-
-.menu li a:hover {
-    border-bottom: 3px solid rgb(108, 163, 92);
-    transition: ease-in .1s;
 }

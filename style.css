@@ -1,62 +1,67 @@
-*{
+* {
     margin: 0;
-padding: 0;
-box-sizing: border-box;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 .container {
     width: 1200px;
     margin: 0 auto;
 }
+
 .navigation {
-display: flex;
-justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
+
 nav {
     padding: 30px;
     background-color: #ffe4e1;
 }
+
 .menu li a {
     text-decoration: none;
     color: rgb(37, 37, 37);
     font-size: 16pt;
 }
-.menu ul{
+
+.menu ul {
     display: flex;
 }
+
 .menu li {
-     list-style: none;
+    list-style: none;
     margin-left: 15px;
 }
+
 .logo {
     font-size: 20pt;
 }
+
 header {
-    height: 1000px;
-    background-image: url("img/image_header.jpg");
+    min-height: 1000px;
+    background-image: url("image_header.jpg"); /* Виправлено шлях */
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
 }
+
 header h1 {
     font-size: 62px;
-    color: #222;
+    color: #222; /* Замість білого */
 }
+
 .container2 {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
-header {
-    min-height: 1000px;
-    background-image: url("img/image_header.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    text-align: center;
-}
+
 .menu li a:hover {
     border-bottom: 3px solid rgb(108, 163, 92);
     transition: ease-in .1s;
